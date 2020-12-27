@@ -13,10 +13,10 @@ class App extends Component {
         <div className="App">
           <Route exact path='/' component={Signin} />
           <Route path='/signup' component={Signup} />
-          {this.props.isSignedIn && (
+          {(this.props.isSignedIn || localStorage.getItem("isLoggedIn") === "true") && (
             <Route path='/home' component={Home} />
           )}
-          {this.props.isSignedIn && (
+          {(this.props.isSignedIn || localStorage.getItem("isLoggedIn") === "true") && (
             <Route path='/posts' component={Post} />
           )}
         </div>

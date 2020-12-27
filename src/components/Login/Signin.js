@@ -43,6 +43,7 @@ const SignIn = (props) => {
 
         props.loginData.map((val) => {
             if (val.name === name && val.password === password) {
+                localStorage.setItem("isLoggedIn", "true");
                 props.signInFun(true);
                 props.history.push('./home')
             }
