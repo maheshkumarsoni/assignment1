@@ -1,0 +1,13 @@
+.position{
+  position: relative;
+  left: auto;
+  text-align: -webkit-center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-pos{
+  max-width: 70%;
+  position: relative;
+}

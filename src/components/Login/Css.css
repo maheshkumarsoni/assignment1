@@ -1,0 +1,18 @@
+
+.btn-secondary:hover{
+    border-color: #ffffff !important;
+} 
+.btn btn-secondary:hover{
+    background: #a10d0d !important;
+}
+
+.red{
+    color: white;
+    background-color: rgb(221, 13, 79);
+    margin: 5px;
+}
+.red:hover{
+    color: white;
+    background-color: rgb(221, 13, 79);
+    margin: 5px;
+}
